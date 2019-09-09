@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>ru.karvozavr.plugin.astinfo</id>
+    <id>ru.karvozavr.plugin.anticopypaste</id>
     <name>AST info</name>
     <vendor email="dmitrii.abramov@outlook.com">Dmitrii Abramov</vendor>
 
@@ -11,16 +11,16 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="AST Info" secondary="true" icon="/ASTInfoToolWindow/plus.png" anchor="bottom"
-                    factoryClass="ru.karvozavr.plugin.astinfo.toolwindow.ASTInfoToolWindowFactory"/>
-        <projectService serviceInterface="ru.karvozavr.plugin.astinfo.services.AstInfoService"
-                        serviceImplementation="ru.karvozavr.plugin.astinfo.services.ASTInfoServiceImpl" />
+                    factoryClass="ru.karvozavr.plugin.anticopypaste.toolwindow.ASTInfoToolWindowFactory"/>
+        <projectService serviceInterface="ru.karvozavr.plugin.anticopypaste.services.AstInfoService"
+                        serviceImplementation="ru.karvozavr.plugin.anticopypaste.services.ASTInfoServiceImpl" />
     </extensions>
 
     <actions>
         <!-- Add your actions here -->
-        <group id="astinfo.SampleMenu" text="ASTInfo" description="ASTInfo menu">
+        <group id="astinfo.SampleMenu" text="Anti Copy-Paster" description="ASTInfo menu">
             <add-to-group group-id="MainMenu" anchor="last"/>
-            <action id="astinfo.showInfo" class="ru.karvozavr.plugin.astinfo.ASTInfoAction" text="AST Info Action"
+            <action id="astinfo.showInfo" class="ru.karvozavr.plugin.anticopypaste.ASTInfoAction" text="AST Info Action"
                     description="Show AST info"/>
         </group>
     </actions>

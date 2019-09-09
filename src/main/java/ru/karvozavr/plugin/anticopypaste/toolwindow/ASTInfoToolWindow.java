@@ -1,11 +1,11 @@
-package ru.karvozavr.plugin.astinfo.toolwindow;
+package ru.karvozavr.plugin.anticopypaste.toolwindow;
 
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.psi.PsiElement;
 import com.intellij.ui.components.JBList;
 import com.intellij.ui.treeStructure.Tree;
-import ru.karvozavr.plugin.astinfo.ASTInfoData;
-import ru.karvozavr.plugin.astinfo.ASTInfoModel;
+import ru.karvozavr.plugin.anticopypaste.ASTInfoData;
+import ru.karvozavr.plugin.anticopypaste.ASTInfoModel;
 
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;

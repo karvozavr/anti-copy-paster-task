@@ -1,11 +1,11 @@
-package ru.karvozavr.plugin.astinfo.toolwindow
+package ru.karvozavr.plugin.anticopypaste.toolwindow
 
 import com.intellij.openapi.components.ServiceManager
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.wm.ToolWindow
 import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.content.ContentFactory
-import ru.karvozavr.plugin.astinfo.services.AstInfoService
+import ru.karvozavr.plugin.anticopypaste.services.AstInfoService
 
 class ASTInfoToolWindowFactory : ToolWindowFactory {
 

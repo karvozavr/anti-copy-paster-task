@@ -1,4 +1,4 @@
-package ru.karvozavr.plugin.astinfo
+package ru.karvozavr.plugin.anticopypaste
 
 import com.intellij.psi.PsiElement
 

@@ -1,4 +1,4 @@
-package ru.karvozavr.plugin.astinfo
+package ru.karvozavr.plugin.anticopypaste
 
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
@@ -8,7 +8,7 @@ import com.intellij.openapi.editor.Editor
 import com.intellij.openapi.ui.Messages
 import com.intellij.openapi.wm.ToolWindowManager
 import com.intellij.psi.PsiFile
-import ru.karvozavr.plugin.astinfo.services.AstInfoService
+import ru.karvozavr.plugin.anticopypaste.services.AstInfoService
 import kotlin.math.max
 
 

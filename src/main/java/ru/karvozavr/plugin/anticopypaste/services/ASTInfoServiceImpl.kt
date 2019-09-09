@@ -1,4 +1,4 @@
-package ru.karvozavr.plugin.astinfo.services
+package ru.karvozavr.plugin.anticopypaste.services
 
 import com.intellij.codeInsight.ExceptionUtil
 import com.intellij.psi.JavaElementVisitor
@@ -7,9 +7,9 @@ import com.intellij.psi.PsiReferenceExpression
 import com.intellij.psi.PsiVariable
 import com.intellij.psi.util.PsiTreeUtil
 import com.intellij.psi.util.PsiUtil
-import ru.karvozavr.plugin.astinfo.ASTInfoData
-import ru.karvozavr.plugin.astinfo.ASTInfoModel
-import ru.karvozavr.plugin.astinfo.toolwindow.ASTInfoToolWindow
+import ru.karvozavr.plugin.anticopypaste.ASTInfoData
+import ru.karvozavr.plugin.anticopypaste.ASTInfoModel
+import ru.karvozavr.plugin.anticopypaste.toolwindow.ASTInfoToolWindow
 
 class ASTInfoServiceImpl : AstInfoService {
 
