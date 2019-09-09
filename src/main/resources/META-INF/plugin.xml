@@ -14,6 +14,7 @@
                     factoryClass="ru.karvozavr.plugin.anticopypaste.toolwindow.ASTInfoToolWindowFactory"/>
         <projectService serviceInterface="ru.karvozavr.plugin.anticopypaste.services.AstInfoService"
                         serviceImplementation="ru.karvozavr.plugin.anticopypaste.services.ASTInfoServiceImpl" />
+        <copyPastePreProcessor implementation="ru.karvozavr.plugin.anticopypaste.services.AlertOnCopyPaste"/>
     </extensions>
 
     <actions>
