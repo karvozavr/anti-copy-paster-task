@@ -10,7 +10,7 @@ This plugin is based on code of another my plugin for __Partial Extract Method R
 
 ## Usage
 
-Simplest way to run the plugin is:  
+The easiest way to run the plugin is:  
 `./gradlew runIde`
 
 To display AST for selection:
